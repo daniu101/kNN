@@ -1,0 +1,13 @@
+Stay long (millisecond) User consumption (RMB)  Key users (1: key; 0 Non key)
+停留时长（毫秒）        用户消费（人民币元）    是否重点用户（1：重点；0非重点）
+20640                   152                      0
+30074                   394                      1
+34006                   306                      1
+
+
+Statement：
+Original material created by iDataSet.com.
+It must be noted that Reproduce or Use：The original material from iDataSet.com.
+声明：
+本材料由iDataSet.com原创取得。
+转载或使用时必须注明：本材料来自iDataSet.com。
