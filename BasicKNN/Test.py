@@ -23,7 +23,8 @@ for line in open("D:/knn.txt"):
 train_set = array(xy)
 
 #开始测试
-validation_set = array([15676, 173])
-k = 3
-outputLabel = knn_classifier(validation_set, train_set, labels, 3)
-print ("验证数据:", validation_set, "模型计算标签: ", outputLabel)
+validation_set = array([10676, 73])
+k = 6
+
+outputLabel = knn_classifier(validation_set, train_set, labels, k)
+print ("validation_set:", validation_set, "labels: ", outputLabel)

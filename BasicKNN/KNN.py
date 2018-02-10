@@ -12,7 +12,7 @@ def knn_classifier(validation_set, train_set, labels, k):
     squared_diff = diff ** 2 
     #按照每个样本行进行累加
     squared_dist = sum(squared_diff, axis = 1) 
-    #开根号晕眩距离     
+    #开根号计算距离     
     distance = squared_dist ** 0.5
     
     #将distance按照升序排序，返回值是下标
